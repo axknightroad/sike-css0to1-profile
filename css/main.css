@@ -166,3 +166,52 @@ ul.nostyle {
   width: 100%;
 
 }
+
+.get-in-touch__list {
+  overflow: hidden;
+}
+
+.get-in-touch__list li {
+  float: left;
+  width: 25%;
+}
+
+.contact form {
+  width: 40%;
+  margin: 0 auto;
+}
+.contact label{
+  display: block;
+  padding: 8px;
+  position: absolute;
+  right: 100%;
+  width: 100%;
+  text-align: right;
+}
+.contact input,
+.contact textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.box {
+  position: relative;
+  width: 100%;
+}
+
+.contact button {
+  display: block;
+  border: none;
+  border-radius: 9999px;
+
+  background: #ffd524;
+
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  color: #fff;
+  box-shadow: 0 3px 0 #daae1d;
+  width: 100%;
+  padding: 8px;
+}
