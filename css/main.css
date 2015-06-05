@@ -64,12 +64,13 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
-.main-nav ul li a:hover {
-  text-decoration: underline;
-}
 
 ul.inline-items li {
   display: inline-block;
+}
+
+.u-line {
+  text-decoration: underline;
 }
 
 .info-section {
@@ -214,4 +215,70 @@ ul.nostyle {
   box-shadow: 0 3px 0 #daae1d;
   width: 100%;
   padding: 8px;
+}
+
+@media (max-width : 960px) {
+  .container {
+   width: 100%;
+  }
+}
+
+@media (max-width : 480px) {
+  .main-header h1{
+    font-size: 32px;
+  }
+
+  .main-nav ul li {
+    margin: 15px 0;
+  }
+  ul.inline-items {
+    padding: 5px;
+  }
+  ul.inline-items li {
+    display: block;
+    width: 100%;
+  }
+  .u-line {
+  text-decoration: none;
+  }
+
+  .info-section {
+    padding: 10px;
+  }
+
+  li.whatido__skill {
+    margin-bottom: 40px;
+    display: block;
+    width: 100%;
+  }
+
+  .float-left {
+    float: none;
+  }
+
+  .education-experience span {
+    display: block;
+  }
+
+  .photos__list li {
+    float: none;
+    width: 100%;
+  }
+
+  .get-in-touch__list li {
+    width: 50%;
+  }
+  .get-in-touch__list img {
+    width: 80%;
+  } 
+
+  .contact form {
+    width: 95%;
+  }
+
+  .contact label {
+    position: static;
+    text-align: left;
+    padding: 0;
+  }
 }
